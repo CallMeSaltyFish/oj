@@ -1,11 +1,5 @@
 #include <iostream>
 using namespace std;
-void swap(int &x, int &y)
-{
-    int t = x;
-    x = y;
-    y = t;
-}
 void sort(int *list, int start, int end)
 {
     if (start >= end)
